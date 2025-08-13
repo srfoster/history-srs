@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.serverless/
+.env
+.env.local
+.env.production
+.aws/
+*.log
+.DS_Store
+Thumbs.db
