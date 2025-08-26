@@ -1,0 +1,86 @@
+.add-date-form {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.add-date-form h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.add-date-form form {
+  display: grid;
+  grid-template-columns: 200px 1fr 160px;
+  gap: 1rem;
+  align-items: end;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  background: white;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.form-input::placeholder {
+  color: #6c757d;
+}
+
+.submit-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: fit-content;
+}
+
+.submit-btn:hover {
+  background: #2980b9;
+}
+
+.submit-btn:active {
+  background: #21618c;
+}
+
+@media (max-width: 768px) {
+  .add-date-form form {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .submit-btn {
+    justify-self: start;
+    padding: 0.75rem 2rem;
+  }
+}
