@@ -26,8 +26,27 @@
 
 .century-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.century-container.collapsed {
+  margin-bottom: 0.5rem;
+}
+
+.century-header {
+  display: flex;
   align-items: center;
   gap: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: background-color 0.2s;
+  width: 100%;
+  justify-content: center;
+}
+
+.century-header:hover {
+  background: rgba(52, 152, 219, 0.1);
 }
 
 .century-label {
@@ -36,6 +55,32 @@
   min-width: 220px;
   text-align: right;
   font-size: 0.9rem;
+}
+
+.century-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 40px;
+}
+
+.toggle-icon {
+  font-size: 0.8rem;
+  color: #6c757d;
+  transition: transform 0.2s;
+}
+
+.event-indicator {
+  color: #3498db;
+  font-size: 0.6rem;
+}
+
+.century-toggle.no-events .toggle-icon {
+  color: #bdc3c7;
+}
+
+.century-toggle.no-events .event-indicator {
+  display: none;
 }
 
 .century-grid {
@@ -115,7 +160,7 @@
 }
 
 @media (max-width: 768px) {
-  .century-container {
+  .century-header {
     flex-direction: column;
     text-align: center;
   }

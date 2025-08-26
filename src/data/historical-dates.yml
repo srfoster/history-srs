@@ -260,3 +260,5 @@ dates:
       event: "Pyramids completed"
     - year: 3400BCE
       event: "Invention of writing"
+    - year: 1714
+      event: "Leibniz writes *Monadology*"

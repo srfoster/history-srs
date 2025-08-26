@@ -4,6 +4,7 @@ import './CenturyGrid.css'
 function CenturyGrid({ dates }) {
   const [hoveredYear, setHoveredYear] = useState(null)
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
+  const [collapsedCenturies, setCollapsedCenturies] = useState(new Set())
 
   // Parse dates and group by year
   const eventsByYear = {}
@@ -44,6 +45,37 @@ function CenturyGrid({ dates }) {
   const centuries = []
   for (let c = minCentury; c <= maxCentury; c++) {
     centuries.push(c)
+  }
+
+  // Determine which centuries have events and set initial collapsed state
+  const centuriesWithEvents = new Set()
+  Object.keys(eventsByYear).forEach(year => {
+    const yearNum = parseInt(year)
+    const century = Math.floor(yearNum / 100)
+    centuriesWithEvents.add(century)
+  })
+
+  // Initialize collapsed state for centuries without events
+  const [isInitialized, setIsInitialized] = useState(false)
+  if (!isInitialized) {
+    const initialCollapsed = new Set()
+    centuries.forEach(century => {
+      if (!centuriesWithEvents.has(century)) {
+        initialCollapsed.add(century)
+      }
+    })
+    setCollapsedCenturies(initialCollapsed)
+    setIsInitialized(true)
+  }
+
+  const toggleCentury = (century) => {
+    const newCollapsed = new Set(collapsedCenturies)
+    if (newCollapsed.has(century)) {
+      newCollapsed.delete(century)
+    } else {
+      newCollapsed.add(century)
+    }
+    setCollapsedCenturies(newCollapsed)
   }
 
   const handleMouseEnter = (year, event) => {
@@ -87,45 +119,58 @@ function CenturyGrid({ dates }) {
 
   const renderCentury = (century) => {
     const startYear = century * 100
+    const isCollapsed = collapsedCenturies.has(century)
+    const hasEvents = centuriesWithEvents.has(century)
+    
     const cells = []
     
-    for (let row = 0; row < 10; row++) {
-      for (let col = 0; col < 10; col++) {
-        const year = startYear + (row * 10) + col
-        const hasEvents = eventsByYear[year]
-        const isYearZero = year === 0
-        // For 1st Century BCE (century -1), the last cell would be year -1 (1 BCE)
-        // but since there's no year 0, this creates a gap
-        const isLastBCECell = century === -1 && row === 9 && col === 9
-        const isGrayedCell = isYearZero || isLastBCECell
-        
-        let title = year.toString()
-        if (isYearZero) {
-          title = 'Year 0 (does not exist)'
-        } else if (isLastBCECell) {
-          title = '1 BCE (transitions to 1 CE)'
+    if (!isCollapsed) {
+      for (let row = 0; row < 10; row++) {
+        for (let col = 0; col < 10; col++) {
+          const year = startYear + (row * 10) + col
+          const hasYearEvents = eventsByYear[year]
+          const isYearZero = year === 0
+          // For 1st Century BCE (century -1), the last cell would be year -1 (1 BCE)
+          // but since there's no year 0, this creates a gap
+          const isLastBCECell = century === -1 && row === 9 && col === 9
+          const isGrayedCell = isYearZero || isLastBCECell
+          
+          let title = year.toString()
+          if (isYearZero) {
+            title = 'Year 0 (does not exist)'
+          } else if (isLastBCECell) {
+            title = '1 BCE (transitions to 1 CE)'
+          }
+          
+          cells.push(
+            <div
+              key={year}
+              className={`century-cell ${hasYearEvents ? 'has-events' : ''} ${isGrayedCell ? 'year-zero' : ''}`}
+              title={title}
+              onMouseEnter={isGrayedCell ? undefined : (e) => handleMouseEnter(year, e)}
+              onMouseLeave={isGrayedCell ? undefined : handleMouseLeave}
+            />
+          )
         }
-        
-        cells.push(
-          <div
-            key={year}
-            className={`century-cell ${hasEvents ? 'has-events' : ''} ${isGrayedCell ? 'year-zero' : ''}`}
-            title={title}
-            onMouseEnter={isGrayedCell ? undefined : (e) => handleMouseEnter(year, e)}
-            onMouseLeave={isGrayedCell ? undefined : handleMouseLeave}
-          />
-        )
       }
     }
     
     return (
-      <div key={century} className="century-container">
-        <div className="century-label">
-          {getCenturyLabel(century)}
+      <div key={century} className={`century-container ${isCollapsed ? 'collapsed' : ''}`}>
+        <div className="century-header" onClick={() => toggleCentury(century)}>
+          <div className="century-label">
+            {getCenturyLabel(century)}
+          </div>
+          <div className={`century-toggle ${hasEvents ? 'has-events' : 'no-events'}`}>
+            <span className="toggle-icon">{isCollapsed ? '▶' : '▼'}</span>
+            {hasEvents && <span className="event-indicator">●</span>}
+          </div>
         </div>
-        <div className="century-grid">
-          {cells}
-        </div>
+        {!isCollapsed && (
+          <div className="century-grid">
+            {cells}
+          </div>
+        )}
       </div>
     )
   }
