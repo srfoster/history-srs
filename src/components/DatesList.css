@@ -3,17 +3,70 @@
   margin: 0 auto;
 }
 
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 .dates-list h2 {
   color: #333;
-  margin-bottom: 1rem;
-  text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
+  margin: 0;
+}
+
+.table-info {
+  display: flex;
+  gap: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.sort-label {
+  font-weight: 600;
+  color: #495057;
+  margin-right: 0.5rem;
+}
+
+.sort-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 0.85rem;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.sort-btn:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.sort-btn.active {
+  background: #007bff;
+  border-color: #007bff;
+  color: white;
 }
 
 .table-container {
   overflow-x: auto;
   border: 1px solid #ddd;
+  margin-bottom: 1rem;
 }
 
 .dates-table {
@@ -34,6 +87,8 @@
   font-weight: 600;
   color: #333;
   border-bottom: 2px solid #ddd;
+  position: sticky;
+  top: 0;
 }
 
 .date-cell {
@@ -53,6 +108,69 @@
   background: #f8f9fa;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.pagination-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.pagination-btn:disabled {
+  background: #f8f9fa;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.pagination-numbers {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.pagination-number {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 0.9rem;
+  min-width: 40px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.pagination-number:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.pagination-number.active {
+  background: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.pagination-ellipsis {
+  padding: 0.5rem 0.75rem;
+  color: #999;
+  font-size: 0.9rem;
+}
+
 .empty-message {
   text-align: center;
   padding: 2rem;
@@ -61,6 +179,29 @@
 }
 
 @media (max-width: 768px) {
+  .table-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .table-info {
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .sort-controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  .sort-btn {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.8rem;
+  }
+  
   .dates-table th,
   .dates-table td {
     padding: 8px;
@@ -68,5 +209,16 @@
   
   .date-cell {
     width: 100px;
+  }
+  
+  .pagination {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+  
+  .pagination-btn,
+  .pagination-number {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
   }
 }

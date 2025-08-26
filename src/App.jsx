@@ -5,7 +5,7 @@ import CenturyGrid from './components/CenturyGrid'
 import { getFormattedDates } from './data/historical-dates'
 
 function App() {
-  const [currentView, setCurrentView] = useState('grid')
+  const [currentView, setCurrentView] = useState('table')
   const dates = getFormattedDates()
 
   return (
