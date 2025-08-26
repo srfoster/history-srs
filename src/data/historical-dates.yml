@@ -254,3 +254,9 @@ dates:
   "Unknown":
     - year: 399BCE
       event: "Socrates died"
+    - year: 2700BCE
+      event: "Pyramids begun"
+    - year: 2500BCE
+      event: "Pyramids completed"
+    - year: 3400BCE
+      event: "Invention of writing"

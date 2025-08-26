@@ -154,6 +154,14 @@ export const historicalDatesData = {
     { year: 1873, event: "First free kindergarten" },
     { year: 1996, event: "Clinton: welfare reforms" },
     { year: 1910, event: "William James died" }
+  ],
+  "Aug 27": [
+  ],
+  "Unknown": [
+    { year: "399BCE", event: "Socrates died" },
+    { year: "2700BCE", event: "Pyramids begun" },
+    { year: "2500BCE", event: "Pyramids completed" },
+    { year: "3400BCE", event: "Invention of writing" }
   ]
 };
 
@@ -164,9 +172,18 @@ export const getFormattedDates = () => {
 
   Object.entries(historicalDatesData).forEach(([month_day, events]) => {
     events.forEach(event => {
+      // For "Unknown" dates, just show the year
+      // For known dates, show "Month Day, Year"
+      let dateString;
+      if (month_day === "Unknown") {
+        dateString = event.year.toString();
+      } else {
+        dateString = `${month_day}, ${event.year}`;
+      }
+      
       formattedDates.push({
         id: id++,
-        date: `${month_day}, ${event.year}`,
+        date: dateString,
         description: event.event
       });
     });

@@ -8,12 +8,16 @@ function CenturyGrid({ dates }) {
   // Parse dates and group by year
   const eventsByYear = {}
   dates.forEach(dateEntry => {
-    // Extract year from date string (handle formats like "Aug 13, 1942", "48BCE", etc.)
+    // Extract year from date string (handle formats like "Aug 13, 1942", "48BCE", "399BCE", etc.)
     const dateStr = dateEntry.date
     let year
     
     if (dateStr.includes('BCE')) {
-      year = -parseInt(dateStr.match(/\d+/)[0])
+      // Handle both "48BCE" and "399BCE" formats
+      const yearMatch = dateStr.match(/(\d+)BCE/)
+      if (yearMatch) {
+        year = -parseInt(yearMatch[1])
+      }
     } else {
       const yearMatch = dateStr.match(/(\d{1,4})$/)
       if (yearMatch) {
