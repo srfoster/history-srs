@@ -151,11 +151,16 @@ export const historicalDatesData = {
     { year: 1991, event: "Linux born" }
   ],
   "Aug 26": [
+    { year: 1346, event: "Crecy" },
     { year: 1873, event: "First free kindergarten" },
-    { year: 1996, event: "Clinton: welfare reforms" },
-    { year: 1910, event: "William James died" }
+    { year: 1883, event: "Krakatoa quiets" },
+    { year: 1910, event: "William James died" },
+    { year: 1920, event: "19th Amendment" },
+    { year: 1996, event: "Clinton: welfare reforms" }
   ],
   "Aug 27": [
+    { year: "479BCE", event: "Battle of Mycale" },
+    { year: 1883, event: "Krakatoa erupts" }
   ],
   "Unknown": [
     { year: "399BCE", event: "Socrates died" },

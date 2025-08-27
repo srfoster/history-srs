@@ -250,6 +250,11 @@ dates:
       event: "Clinton: welfare reforms"
     - year: 1910
       event: "William James died"
+  "Aug 27":
+    - year: 479BCE
+      event: "Battle of Mycale"
+    - year: 1883
+      event: "Krakatoa erupts"
 
   "Unknown":
     - year: 399BCE
