@@ -255,6 +255,22 @@ dates:
       event: "Battle of Mycale"
     - year: 1883
       event: "Krakatoa erupts"
+  "Aug 28":
+    - year: 1609
+      event: "Hudson discovers Delaware Bay"
+    - year: 1830
+      event: "Horse vs train (\"Tom thumb\") 1st US train"
+    - year: 1963
+      event: "MLK dream speech"
+  "Aug 29":
+    - year: 1526
+      event: "Battle of Mohács, Ottomans defeat Hungary"
+    - year: 1842
+      event: "Treaty of Nanking, ends 1st Opium War"
+    - year: 1949
+      event: "Soviets develop nuclear weapons"
+    - year: 2005
+      event: "Hurricane Katrina makes landfall"
 
   "Unknown":
     - year: 399BCE
