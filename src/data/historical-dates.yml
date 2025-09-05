@@ -271,6 +271,52 @@ dates:
       event: "Soviets develop nuclear weapons"
     - year: 2005
       event: "Hurricane Katrina makes landfall"
+  "Aug 30":
+    - year: 1146
+      event: "Crossbows banned"
+    - year: 1682
+      event: "William Penn -> New World"
+  "Aug 31":
+    - year: 1854
+      event: "London cholera outbreak"
+    - year: 1888
+      event: "Jack the Ripper's first victim found"
+    - year: 1917
+      event: "Sun Yat-sen elected Commander-in-Chief (by his own parlament?)"
+    - year: 1997
+      event: "Princess Diana dies"
+  "Sep 1":
+    - year: 1939
+      event: "WWII begins.  Germany->Poland"
+    - year: 1715
+      event: "Louis XIV dies"
+    - year: 1969
+      event: "Gaddafi comes to power in Libya"
+  
+  "Sep 3":
+    - year: 1783
+      event: "Treaty of Paris"
+    - year: 1939
+      event: "Britain declares war on Germany"
+    - year: 1944
+      event: "Anne Frank deported to Auschwitz"
+  
+  "Sep 4":
+    - year: "476 BC"
+      event: "Romulus Augustulus abdicates (fall of Western Roman Empire)"
+    - year: 1781
+      event: "Los Angeles founded"
+    - year: 1862
+      event: "Robert E. Lee invades the North"
+    - year: 1957
+      event: "Orval Faubus calls the National Guard (to prevent integration at Little Rock Central High School)"
+    - year: 1839
+      event: "1st Opium War"
+  
+  "Sep 5":
+    - year: 1781
+      event: "Cornwallis surrenders"
+
 
   "Unknown":
     - year: 399BCE
