@@ -293,6 +293,18 @@ dates:
     - year: 1969
       event: "Gaddafi comes to power in Libya"
   
+  "Sep 2":
+    - year: "31 BC"
+      event: "Battle of Actium, Octavian -> Antony and Cleo"
+    - year: 1192
+      event: "Saladin + Lionheart: Treaty of Jaffa"
+    - year: 1666
+      event: "Great Fire of London (80% destroyed)"
+    - year: 1792
+      event: "French Revolution September Massacres"
+    - year: 1864
+      event: "Sherman -> Atl"
+  
   "Sep 3":
     - year: 1783
       event: "Treaty of Paris"
