@@ -1,175 +1,21 @@
-// Historical dates data converted from YAML
-export const historicalDatesData = {
-  "Jul 28": [
-    { year: 1914, event: "Aust-Hung->Serbia" },
-    { year: 1868, event: "14th Amendment" }
-  ],
-  "Jul 29": [
-    { year: 1836, event: "Arc of Triumph" },
-    { year: 1921, event: "Hitler heads Nat Socialists" },
-    { year: 1954, event: "LotR first book published" }
-  ],
-  "Jul 30": [
-    { year: 1619, event: "Burgesses" },
-    { year: 1966, event: "Beatles last tour" }
-  ],
-  "Jul 31": [
-    { year: 1498, event: "Trinidad discovered" },
-    { year: 1703, event: "Defoe pillared" }
-  ],
-  "Aug 1": [
-    { year: 1798, event: "Battle of the Nile" },
-    { year: 1834, event: "British abolish slavery" },
-    { year: 1914, event: "Germany -> Russia" }
-  ],
-  "Aug 2": [
-    { year: 1700, event: "1st Census?" },
-    { year: 1945, event: "Potsdam end" },
-    { year: 1990, event: "Iraq -> Kuwait" }
-  ],
-  "Aug 3": [
-    { year: 1492, event: "Columbus" },
-    { year: 1914, event: "Germany -> France" },
-    { year: 1958, event: "Nautilus" },
-    { year: 1923, event: "Coolidge" },
-    { year: 1981, event: "PATCO" }
-  ],
-  "Aug 4": [
-    { year: 1790, event: "Coast guard formed" },
-    { year: 1944, event: "Anne Frank arrested" },
-    { year: 1914, event: "UK->Germany" }
-  ],
-  "Aug 5": [
-    { year: 1861, event: "1st income tax (3%)" },
-    { year: 1962, event: "Marilyn Monroe found dead" },
-    { year: 1914, event: "1st traffic light" }
-  ],
-  "Aug 6": [
-    { year: 1945, event: "Hiroshima" },
-    { year: 1890, event: "1st electric chair" },
-    { year: 1965, event: "Voting rights act" },
-    { year: 1991, event: "Tim Berners-Lee?" }
-  ],
-  "Aug 7": [
-    { year: 1461, event: "(Ming D) Cao Qin coup" },
-    { year: 1714, event: "Battle of Gangot" },
-    { year: 1782, event: "Pre purple heart" },
-    { year: 1990, event: "Desert shield" }
-  ],
-  "Aug 8": [
-    { year: 1609, event: "Galileo presents telescope" },
-    { year: 1786, event: "Dollar chosen" },
-    { year: 1945, event: "Soviets->Japan" },
-    { year: 1988, event: "Iran/Iraq ceasefire (8 years)" }
-  ],
-  "Aug 9": [
-    { year: "48BCE", event: "Caesar beats Pompey the Great" },
-    { year: 1945, event: "2nd A-bomb" },
-    { year: 1974, event: "Nixon->Ford" }
-  ],
-  "Aug 10": [
-    { year: 610, event: "Laylat al-Qadr" },
-    { year: 1846, event: "Smithsonian est." },
-    { year: 1628, event: "Vasa sinks" }
-  ],
-  "Aug 11": [
-    { year: 1988, event: "Al-Qaeda" },
-    { year: 1989, event: "Voyager 2->Neptune's rings" },
-    { year: 2015, event: "Greek bailout" }
-  ],
-  "Aug 12": [
-    { year: 1492, event: "Columbus->Canary" },
-    { year: 1553, event: "Julius burns Talmud" },
-    { year: 1851, event: "Sewing machine patent" },
-    { year: 1865, event: "Lister->anticeptics (carbolic spray)" },
-    { year: 1877, event: "Edison records Little lamb" },
-    { year: 1898, event: "Spanish-American War ends" }
-  ],
-  "Aug 13": [
-    { year: 1521, event: "Cortez->Tenochtitlan" },
-    { year: 1942, event: "Manhattan Project" },
-    { year: 1642, event: "Huygen->Mars polar caps" },
-    { year: 1792, event: "Antoinette->prison" }
-  ],
-  "Aug 14": [
-    { year: 1281, event: "Kublai Khan 2nd invasion of Japan (ships lost)" },
-    { year: 1842, event: "2nd Seminole War" },
-    { year: 1945, event: "V-J Day" },
-    { year: 1947, event: "Pakistan independence (UK)" },
-    { year: 1969, event: "Operation Banner" }
-  ],
-  "Aug 15": [
-    { year: 1461, event: "Trebizond Empire falls" },
-    { year: 1620, event: "Mayflower" },
-    { year: 1900, event: "Boxer Rebellion" },
-    { year: 1947, event: "India independence" },
-    { year: 1998, event: "Omagh Bombing" },
-    { year: 2021, event: "Taliban->Kabul" }
-  ],
-  "Aug 16": [
-    { year: 1513, event: "Battle of Spurs (Henry VIII)" },
-    { year: 1858, event: "Queen Vic -> Buchanan 1st telegraph" }
-  ],
-  "Aug 18": [
-    { year: 1590, event: "Roanoke" },
-    { year: 1903, event: "Pulitzer (US)" },
-    { year: 1945, event: "Korea N/S" },
-    { year: 1998, event: "Clinton admits" }
-  ],
-  "Aug 19": [
-    { year: "43BC", event: "Octavian/Augustus->Consul" },
-    { year: 1839, event: "Daguerrotype published" }
-  ],
-  "Aug 20": [
-    { year: 1619, event: "1st slaves in Brit colonies" },
-    { year: 1741, event: "Bering->Alaska" },
-    { year: 1905, event: "Sun Yat-sen->Tongmenghui" },
-    { year: 1993, event: "Oslo peace accords" }
-  ],
-  "Aug 21": [
-    { year: 1888, event: "Burrough's adding machine" },
-    { year: 1959, event: "Hawaii" }
-  ],
-  "Aug 22": [
-    { year: 1485, event: "Rich III killed. War of Roses ends" },
-    { year: 1642, event: "Eng Civil War starts" },
-    { year: 1775, event: "George III -> War on Colonies" },
-    { year: 1864, event: "1st Geneva Convention" }
-  ],
-  "Aug 23": [
-    { year: 1942, event: "Battle of Stalingraad" },
-    { year: 1943, event: "Battle of Kursk (10,000 Tanks!)" }
-  ],
-  "Aug 24": [
-    { year: 410, event: "Visigoths sack Rome" },
-    { year: 1814, event: "British->DC" },
-    { year: 79, event: "Vesuvius erupts (old date)" }
-  ],
-  "Aug 25": [
-    { year: 1718, event: "NOLA founded" },
-    { year: 1768, event: "Cook departs" },
-    { year: 1991, event: "Linux born" }
-  ],
-  "Aug 26": [
-    { year: 1346, event: "Crecy" },
-    { year: 1873, event: "First free kindergarten" },
-    { year: 1883, event: "Krakatoa quiets" },
-    { year: 1910, event: "William James died" },
-    { year: 1920, event: "19th Amendment" },
-    { year: 1996, event: "Clinton: welfare reforms" }
-  ],
-  "Aug 27": [
-    { year: "479BCE", event: "Battle of Mycale" },
-    { year: 1883, event: "Krakatoa erupts" }
-  ],
-  "Unknown": [
-    { year: "399BCE", event: "Socrates died" },
-    { year: "2700BCE", event: "Pyramids begun" },
-    { year: "2500BCE", event: "Pyramids completed" },
-    { year: "3400BCE", event: "Invention of writing" },
-    { year: 1714, event: "Leibniz writes *Monadology*" }
-  ]
+import yaml from 'js-yaml';
+
+// Import the YAML file as text
+import yamlText from './historical-dates.yml?raw';
+
+// Parse the YAML data
+const parseHistoricalData = () => {
+  try {
+    const data = yaml.load(yamlText);
+    return data.dates;
+  } catch (error) {
+    console.error('Error parsing YAML:', error);
+    return {};
+  }
 };
+
+// Get the historical dates data from YAML
+export const historicalDatesData = parseHistoricalData();
 
 // Convert the data to the format expected by the app
 export const getFormattedDates = () => {
