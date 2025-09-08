@@ -328,6 +328,30 @@ dates:
   "Sep 5":
     - year: 1781
       event: "Cornwallis surrenders"
+  
+  "Sep 6":
+    - year: 1522
+      event: "Magellan's ships return w/o him"
+    - year: 1901
+      event: "McKinley killed"
+    - year: 1914
+      event: "WWI – 1st Battle of the Marne"
+  
+  "Sep 7":
+    - year: 70
+      event: "Titus plunders Jerusalem"
+    - year: 1812
+      event: "Napoleon: Battle of Borodino"
+    - year: 1940
+      event: "Blitz begins (57 nights)"
+  
+  "Sep 8":
+    - year: 1504
+      event: "Statue of David unveiled"
+    - year: 1565
+      event: "1st permanent settl' in US: St. Augustine, Florida"
+    - year: 1941
+      event: "Siege of Leningrad begins (28 months) - 1.5 million deaths"
 
 
   "Unknown":
