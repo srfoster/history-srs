@@ -407,6 +407,54 @@ Error generating stack: `+n.message+`
   "Sep 5":\r
     - year: 1781\r
       event: "Cornwallis surrenders"\r
+  \r
+  "Sep 6":\r
+    - year: 1522\r
+      event: "Magellan's ships return w/o him"\r
+    - year: 1901\r
+      event: "McKinley killed"\r
+    - year: 1914\r
+      event: "WWI – 1st Battle of the Marne"\r
+  \r
+  "Sep 7":\r
+    - year: 70\r
+      event: "Titus plunders Jerusalem"\r
+    - year: 1812\r
+      event: "Napoleon: Battle of Borodino"\r
+    - year: 1940\r
+      event: "Blitz begins (57 nights)"\r
+  \r
+  "Sep 8":\r
+    - year: 1504\r
+      event: "Statue of David unveiled"\r
+    - year: 1565\r
+      event: "1st permanent settl' in US: St. Augustine, Florida"\r
+    - year: 1941\r
+      event: "Siege of Leningrad begins (28 months) - 1.5 million deaths"\r
+  \r
+  "Sep 9":\r
+    - year: 1000\r
+      event: "Battle of Svolder"\r
+    - year: 1543\r
+      event: "Mary → Queen of Scots"\r
+    - year: 1827\r
+      event: "Alex Twilight 1st Black grad from US college"\r
+  \r
+  "Sep 10":\r
+    - year: 1977\r
+      event: "Hamida Djandoubi, convicted of torture and murder, is the last person to be executed by guillotine in France"\r
+    - year: 2008\r
+      event: "The Large Hadron Collider at CERN, described as the biggest scientific experiment in the history of mankind, is powered up in Geneva, Switzerland"\r
+    - year: 2020\r
+      event: "California's August Complex wildfire becomes the largest recorded in state history at 471,000 acres (736 square miles)"\r
+  \r
+  "Sep 11":\r
+    - year: 1297\r
+      event: "William Wallace wins Battle of Stirling Bridge"\r
+    - year: 1916\r
+      event: "1st super market Piggly Wiggly"\r
+    - year: 2001\r
+      event: "9/11"\r
 \r
 \r
   "Unknown":\r
