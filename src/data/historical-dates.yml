@@ -352,6 +352,30 @@ dates:
       event: "1st permanent settl' in US: St. Augustine, Florida"
     - year: 1941
       event: "Siege of Leningrad begins (28 months) - 1.5 million deaths"
+  
+  "Sep 9":
+    - year: 1000
+      event: "Battle of Svolder"
+    - year: 1543
+      event: "Mary → Queen of Scots"
+    - year: 1827
+      event: "Alex Twilight 1st Black grad from US college"
+  
+  "Sep 10":
+    - year: 1977
+      event: "Hamida Djandoubi, convicted of torture and murder, is the last person to be executed by guillotine in France"
+    - year: 2008
+      event: "The Large Hadron Collider at CERN, described as the biggest scientific experiment in the history of mankind, is powered up in Geneva, Switzerland"
+    - year: 2020
+      event: "California's August Complex wildfire becomes the largest recorded in state history at 471,000 acres (736 square miles)"
+  
+  "Sep 11":
+    - year: 1297
+      event: "William Wallace wins Battle of Stirling Bridge"
+    - year: 1916
+      event: "1st super market Piggly Wiggly"
+    - year: 2001
+      event: "9/11"
 
 
   "Unknown":
