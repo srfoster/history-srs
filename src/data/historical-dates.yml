@@ -376,6 +376,14 @@ dates:
       event: "1st super market Piggly Wiggly"
     - year: 2001
       event: "9/11"
+  
+  "Sep 12":
+    - year: 1624
+      event: "1st submarine"
+    - year: 1958
+      event: "Arkansas Central HS ordered to integrate"
+    - year: 1959
+      event: "Luna 2 (Soviet) 1st to impact moon"
 
 
   "Unknown":
