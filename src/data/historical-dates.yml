@@ -384,6 +384,30 @@ dates:
       event: "Arkansas Central HS ordered to integrate"
     - year: 1959
       event: "Luna 2 (Soviet) 1st to impact moon"
+  
+  "Sep 13":
+    - year: 1501
+      event: "Michaelangelo begins David"
+    - year: 1845
+      event: "Faraday effect discovered"
+    - year: 1993
+      event: "Oslo Accords unveiled"
+  
+  "Sep 14":
+    - year: 1752
+      event: "British adopt Gregorian calendar"
+    - year: 1939
+      event: "1st helicopter takes flight"
+    - year: 1956
+      event: "IBM → RAMAC 305"
+  
+  "Sep 15":
+    - year: 1616
+      event: "1st free public school"
+    - year: 1835
+      event: "Darwin → Galápagos"
+    - year: 1928
+      event: "Fleming → Penicillin"
 
 
   "Unknown":
