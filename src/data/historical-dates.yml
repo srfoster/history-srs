@@ -409,6 +409,36 @@ dates:
     - year: 1928
       event: "Fleming → Penicillin"
 
+  "Sep 16":
+    - year: 1795
+      event: "British → Cape Town captured from Dutch"
+    - year: 1848
+      event: "France abolishes slavery"
+    - year: 1920
+      event: "Wall Street bombing"
+
+  "Sep 17":
+    - year: 1683
+      event: "Leeuwenhoek → Bacteria"
+    - year: 1862
+      event: "Battle of Antietam - 22,000 killed"
+
+  "Sep 18":
+    - year: 1812
+      event: "Great fire of Moscow - 12,000 dead, 75% destroyed"
+    - year: 1947
+      event: "CIA founded by Truman"
+    - year: 1976
+      event: "Mao Zedong funeral"
+
+  "Sep 19":
+    - year: 1870
+      event: "Prussia → Paris siege"
+    - year: 1893
+      event: "New Zealand first to allow women to vote"
+    - year: 1986
+      event: "1st retroviral for AIDS/HIV"
+
 
   "Unknown":
     - year: 399BCE
