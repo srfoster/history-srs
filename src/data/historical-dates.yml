@@ -439,6 +439,20 @@ dates:
     - year: 1986
       event: "1st retroviral for AIDS/HIV"
 
+  "Sep 20":
+    - year: 1519
+      event: "Magellan sets off"
+    - year: 1854
+      event: "Battle of the Alma. Crimean War. (Russian Empire lost.)"
+    - year: 2001
+      event: "Bush → War on Terror"
+
+  "Sep 21":
+    - year: 1922
+      event: "Warren G Harding → Official Support for Palestine"
+    - year: 1949
+      event: "Mao Zedong → PRC"
+
 
   "Unknown":
     - year: 399BCE
