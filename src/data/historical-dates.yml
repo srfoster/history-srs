@@ -453,6 +453,71 @@ dates:
     - year: 1949
       event: "Mao Zedong → PRC"
 
+  "Sep 23":
+    - year: 1884
+      event: "Herman Hollerith patents tabulating machine"
+    - year: 1957
+      event: "Eisenhower → troops to Little Rock Central HS"
+
+  "Sep 24":
+    - year: 1493
+      event: "Columbus 2nd trip embarks"
+    - year: 1789
+      event: "6-member Supreme Court"
+    - year: 1869
+      event: "Black Fri (Gold conspiracy)"
+    - year: 1950
+      event: "Operation Magic Carpet 45K Jews Yemen -> Israel"
+
+  "Sep 26":
+    - year: 1580
+      event: "Francis Drake returns"
+    - year: 1901
+      event: "UK annexes Ashanti Kingdom → Gold Coast (Ghana)"
+
+  "Sep 27":
+    - year: 1066
+      event: "William the Conq. → England"
+    - year: 1821
+      event: "Spanish leave Mexico City to Agostín de Iturbide"
+    - year: 1822
+      event: "Champollion uses Rosetta Stone"
+    - year: 1905
+      event: "E = mc² published"
+    - year: 1909
+      event: "1st Model T"
+
+  "Sep 29":
+    - year: -480
+      event: "Battle of Salamis (sea) *Themistocles > Xerxes I*"
+    - year: 1567
+      event: "War of Religion - Huguenots try kidnap Charles IX"
+    - year: 2008
+      event: "Dow falls 777.68"
+
+  "Oct 1":
+    - year: -331
+      event: "Alexander → Darius III"
+    - year: 1814
+      event: "Congress of Vienna redraws map after Napoleon"
+    - year: 1867
+      event: "Marx → Das Kapital"
+    - year: 1988
+      event: "Gorbachev heads Soviet Union"
+
+  "Oct 2":
+    - year: 1187
+      event: "Saladin captures Jerusalem"
+    - year: 1492
+      event: "Henry IV invades France"
+
+  "Oct 3":
+    - year: 1922
+      event: "Photo sent by telephone"
+    - year: 1935
+      event: "Italy invades Ethiopia"
+    - year: 1990
+      event: "Germany reunified"
 
   "Unknown":
     - year: 399BCE
