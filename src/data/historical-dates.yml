@@ -519,6 +519,46 @@ dates:
     - year: 1990
       event: "Germany reunified"
 
+  "Oct 4":
+    - year: 1537
+      event: "1st print of Bible"
+    - year: 1883
+      event: "Orient Express Paris → Istanbul"
+    - year: 1900
+      event: "Ashantis defeated"
+    - year: 1957
+      event: "Sputnik ↑"
+
+  "Oct 5":
+    - year: 1274
+      event: "Mongols → Japan"
+    - year: 1813
+      event: "W. H. Harrison → Tecumseh's Confederacy"
+    - year: 1864
+      event: "Calcutta ← Cyclone"
+
+  "Oct 6":
+    - year: 1949
+      event: "Truman strengthens NATO with Mutual Defense Assistance Act"
+    - year: 1951
+      event: "Stalin announces A-bomb"
+    - year: 1956
+      event: "Albert Sabin → polio vaccine"
+
+  "Oct 7":
+    - year: 2001
+      event: "US invasion of Afghanistan begins with air assault and covert ground operations"
+    - year: 2023
+      event: "Hamas launches major air and ground attack on Israel from Gaza"
+
+  "Oct 8":
+    - year: 1769
+      event: "Captain James Cook lands in New Zealand, Te Maro killed in misunderstanding"
+    - year: 1856
+      event: "Second Opium War begins with Arrow Incident on Pearl River"
+    - year: 1917
+      event: "Leon Trotsky named chairman of Petrograd Soviet as Bolsheviks gain control"
+
   "Unknown":
     - year: 399BCE
       event: "Socrates died"
