@@ -559,6 +559,24 @@ dates:
     - year: 1917
       event: "Leon Trotsky named chairman of Petrograd Soviet as Bolsheviks gain control"
 
+  "Oct 9":
+    - year: 768
+      event: "Charlemagne and Carloman I crowned King of the Franks"
+    - year: 1000
+      event: "Leif Erikson reaches Vinland, first European to reach North America"
+    - year: 1941
+      event: "FDR approves atomic program (Manhattan Project)"
+    - year: 2006
+      event: "North Korea conducts first nuclear test"
+
+  "Oct 10":
+    - year: 1780
+      event: "Great Hurricane of 1780 kills 20,000-30,000 in Caribbean"
+    - year: 1871
+      event: "Great Chicago Fire extinguished after 3 days"
+    - year: 1911
+      event: "Chinese revolutionaries begin Wuchang Uprising against Qing dynasty"
+
   "Unknown":
     - year: 399BCE
       event: "Socrates died"
