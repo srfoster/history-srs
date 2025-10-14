@@ -577,6 +577,38 @@ dates:
     - year: 1911
       event: "Chinese revolutionaries begin Wuchang Uprising against Qing dynasty"
 
+  "Oct 11":
+    - year: 1945
+      event: "Chinese Civil War begins between Kuomintang and Communist Party"
+    - year: 1986
+      event: "Reagan and Gorbachev open Reykjavik summit talks"
+
+  "Oct 12":
+    - year: -539
+      event: "Cyrus the Great takes Babylon"
+    - year: 1900
+      event: "First modern submarine USS Holland commissioned by US Navy"
+    - year: 1999
+      event: "Day of Six Billion proclaimed as 6 billionth human born"
+
+  "Oct 13":
+    - year: 54
+      event: "Agrippina the Younger murders Emperor Claudius to secure succession for Nero"
+    - year: 1884
+      event: "International Meridian Conference establishes Greenwich as prime meridian"
+    - year: 1924
+      event: "Mecca falls to Saudi forces led by Abdulaziz Ibn Saud"
+    - year: 1943
+      event: "Italy switches sides and declares war on Germany"
+
+  "Oct 14":
+    - year: 1066
+      event: "Battle of Hastings: William the Conqueror defeats Harold II"
+    - year: 1933
+      event: "Nazi Germany withdraws from League of Nations"
+    - year: 1982
+      event: "Reagan proclaims war on drugs"
+
   "Unknown":
     - year: 399BCE
       event: "Socrates died"
