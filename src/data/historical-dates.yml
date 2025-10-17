@@ -609,6 +609,28 @@ dates:
     - year: 1982
       event: "Reagan proclaims war on drugs"
 
+  "Oct 15":
+    - year: 1581
+      event: "First ballet 'Ballet Comique de la Reine' staged in Paris"
+    - year: 1815
+      event: "Napoleon arrives on Saint Helena to begin exile"
+    - year: 1993
+      event: "Mandela and de Klerk awarded Nobel Peace Prize"
+
+  "Oct 16":
+    - year: 1813
+      event: "Battle of Leipzig: Napoleon defeated by Prussia, Austria, Russia"
+    - year: 1962
+      event: "Cuban Missile Crisis begins as JFK shown Soviet missile photos"
+
+  "Oct 17":
+    - year: 1907
+      event: "Marconi begins first commercial transatlantic wireless service"
+    - year: 1943
+      event: "Burma Railway completed by Allied POWs and Asian laborers"
+    - year: 1973
+      event: "OPEC uses oil as economic weapon in Arab-Israeli War"
+
   "Unknown":
     - year: 399BCE
       event: "Socrates died"
