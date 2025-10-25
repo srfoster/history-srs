@@ -3,12 +3,11 @@ import './App.css'
 import DatesList from './components/DatesList'
 import CenturyGrid from './components/CenturyGrid'
 import TodayInHistory from './components/TodayInHistory'
-import { getFormattedDates, getTodaysEvents } from './data/historical-dates'
+import { getFormattedDates } from './data/historical-dates'
 
 function App() {
   const [currentView, setCurrentView] = useState('table')
   const dates = getFormattedDates()
-  const todaysEvents = getTodaysEvents()
 
   return (
     <div className="app">
@@ -33,7 +32,7 @@ function App() {
       </header>
       
       <main className="app-main">
-        <TodayInHistory events={todaysEvents} />
+        <TodayInHistory />
         
         {currentView === 'grid' ? (
           <CenturyGrid dates={dates} />
