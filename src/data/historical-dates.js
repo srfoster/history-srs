@@ -23,6 +23,11 @@ export const getFormattedDates = () => {
   let id = 1;
 
   Object.entries(historicalDatesData).forEach(([month_day, events]) => {
+    // Skip dates with no events
+    if (!events || !Array.isArray(events)) {
+      return;
+    }
+    
     events.forEach(event => {
       // For "Unknown" dates, just show the year
       // For known dates, show "Month Day, Year"
@@ -42,4 +47,30 @@ export const getFormattedDates = () => {
   });
 
   return formattedDates;
+};
+
+// Get events for today's date
+export const getTodaysEvents = () => {
+  const today = new Date();
+  const months = [
+    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+  ];
+  
+  const monthName = months[today.getMonth()];
+  const dayNumber = today.getDate();
+  const todayKey = `${monthName} ${dayNumber}`;
+  
+  const events = historicalDatesData[todayKey];
+  
+  if (!events || !Array.isArray(events)) {
+    return [];
+  }
+  
+  return events.map((event, index) => ({
+    id: `today-${index}`,
+    year: event.year,
+    event: event.event,
+    date: `${todayKey}, ${event.year}`
+  }));
 };
