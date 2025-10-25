@@ -12,12 +12,16 @@ dates:
       event: "Hitler heads Nat Socialists"
     - year: 1954
       event: "LotR first book published"
+    - year: 1957
+      event: "Pres. Eisenhower signs legislation creating NASA"
   
   "Jul 30":
     - year: 1619
       event: "Burgesses"
     - year: 1966
       event: "Beatles last tour"
+    - year: 1830
+      event: "Henry Ford born in Dearborn, MI"
   
   "Jul 31":
     - year: 1498
@@ -32,6 +36,8 @@ dates:
       event: "British abolish slavery"
     - year: 1914
       event: "Germany -> Russia"
+    - year: 1291
+      event: "Republic of Switerland founded, the oldest republic still existing"
   
   "Aug 2":
     - year: 1700
@@ -39,11 +45,11 @@ dates:
     - year: 1945
       event: "Potsdam end"
     - year: 1990
-      event: "Iraq -> Kuwait"
+      event: "Iraq invades Kuwait, Emir flees to Saudi Arabia"
   
   "Aug 3":
     - year: 1492
-      event: "Columbus"
+      event: "Christopher Columbus sets sail from Spain"
     - year: 1914
       event: "Germany -> France"
     - year: 1958
@@ -59,7 +65,7 @@ dates:
     - year: 1944
       event: "Anne Frank arrested"
     - year: 1914
-      event: "UK->Germany"
+      event: "England declares war on Germany; U.S. declares neutrality"
   
   "Aug 5":
     - year: 1861
@@ -68,6 +74,8 @@ dates:
       event: "Marilyn Monroe found dead"
     - year: 1914
       event: "1st traffic light"
+    - year: 1936
+      event: "Jesse Owens wins his third gold medal at Berlin Olympics"
   
   "Aug 6":
     - year: 1945
@@ -78,6 +86,8 @@ dates:
       event: "Voting rights act"
     - year: 1991
       event: "Tim Berners-Lee?"
+    - year: 1926
+      event: "Warner Bros. Studios premieres first talking pictures"
   
   "Aug 7":
     - year: 1461
@@ -88,6 +98,8 @@ dates:
       event: "Pre purple heart"
     - year: 1990
       event: "Desert shield"
+    - year: 1942
+      event: "Battle of Guadalcanal"
   
   "Aug 8":
     - year: 1609
@@ -139,7 +151,7 @@ dates:
   
   "Aug 13":
     - year: 1521
-      event: "Cortez->Tenochtitlan"
+      event: "Spanish conqerors take Tenochtitlan (now Mexico City) from the Aztecs"
     - year: 1942
       event: "Manhattan Project"
     - year: 1642
@@ -156,6 +168,8 @@ dates:
       event: "V-J Day"
     - year: 1947
       event: "Pakistan independence (UK)"
+    - year: 1935
+      event: "Social Security Law is established"
     - year: 1969
       event: "Operation Banner"
   
@@ -630,6 +644,904 @@ dates:
       event: "Burma Railway completed by Allied POWs and Asian laborers"
     - year: 1973
       event: "OPEC uses oil as economic weapon in Arab-Israeli War"
+
+  "Oct 18":
+    - year: 1867
+      event: "US takes formal possession of Alaska from Russia for $7.2 million"
+    - year: 1931
+      event: "Al Capone convicted on tax evasion charges"
+    - year: 1962
+      event: "Watson, Crick and Wilkins win Nobel Prize for DNA structure work"
+
+  "Oct 19":
+    - year: "202BCE"
+      event: "Battle of Zama: Scipio Africanus defeats Hannibal, ending Second Punic War"
+    - year: 1781
+      event: "Cornwallis surrenders to Washington at Yorktown, ending American Revolutionary War"
+    - year: 2015
+      event: "Scientists find evidence life on Earth began 4.1 billion years ago"
+
+  "Oct 20":
+    - year: 1803
+      event: "US Senate ratifies Louisiana Purchase"
+    - year: 2020
+      event: "US Justice Department sues Google for illegal monopoly"
+
+  "Oct 21":
+    - year: 1805
+      event: "Battle of Trafalgar: Nelson defeats French-Spanish fleet, Nelson killed"
+    - year: 1854
+      event: "Florence Nightingale sent to Crimean War with 38 nurses"
+    - year: 1950
+      event: "Chinese Communist forces occupy Tibet"
+
+  "Oct 22":
+    - year: 1721
+      event: "Tsar Peter the Great titles himself Emperor of All Russia"
+    - year: 1879
+      event: "Thomas Edison perfects carbonized cotton filament light bulb"
+
+  "Oct 23":
+    - year: "42BCE"
+      event: "Second Battle of Philippi: Brutus defeated by Mark Antony and Octavian"
+    - year: 1977
+      event: "Discovery of 3.4 billion-year-old single-celled fossil announced"
+
+  "Oct 24":
+    - year: 1929
+      event: "Black Thursday: Dow Jones drops 12.8%, start of stock market crash"
+    - year: 2008
+      event: "Bloody Friday: World stock exchanges experience worst decline in history"
+
+  "Oct 25":
+    - year: 1415
+      event: "Battle of Agincourt: Henry V defeats French army with longbow tactics"
+    - year: 1854
+      event: "Charge of the Light Brigade during Battle of Balaclava"
+
+  "Oct 26":
+    - year: 1861
+      event: "Pony Express ends after 19 months"
+    - year: 1863
+      event: "Geneva conference leads to formation of Red Cross"
+    - year: 1977
+      event: "Last natural case of smallpox discovered in Somalia"
+    - year: 2019
+      event: "US Special Forces kill ISIS leader Abu Bakr al-Baghdadi"
+
+  "Oct 27":
+
+  "Oct 28":
+
+  "Oct 29":
+
+  "Oct 30":
+
+  "Oct 31":
+
+  "Nov 1":
+
+  "Nov 2":
+
+  "Nov 3":
+
+  "Nov 4":
+
+  "Nov 5":
+    - year: 1895
+      event: "George Selden receives the first U.S. patent for an automobile"
+
+  "Nov 6":
+    - year: 1869
+      event: "Rutgers and Princeton play the first intercollegiate football game"
+
+  "Nov 7":
+
+  "Nov 8":
+    - year: 1731
+      event: "Benjamin Franklin opens the first public library in Philadelphia"
+
+  "Nov 9":
+    - year: 1906
+      event: "Theodore Roosevelt is the first U.S. president to visit other countries (Puerto Rico and Panama)"
+
+  "Nov 10":
+    - year: 1926
+      event: "Hirohito becomes Emperor of Japan"
+
+  "Nov 11":
+    - year: 1939
+      event: "God Bless America is publicly sung for the first time by Kate Smith"
+
+  "Nov 12":
+    - year: 1954
+      event: "Ellis Island immigration station in NY Harbor is closed"
+
+  "Nov 13":
+
+  "Nov 14":
+
+  "Nov 15":
+
+  "Nov 16":
+    - year: 1532
+      event: "Inca Empire falls to Spaniard Pizarro"
+
+  "Nov 17":
+    - year: 1868
+      event: "Suez Canal in Egypt opens, linking Mediterranean and Red Seas"
+
+  "Nov 18":
+    - year: 1928
+      event: "Mickey Mouse makes his animated debut in Steamboat Willie"
+
+  "Nov 19":
+
+  "Nov 20":
+    - year: 1945
+      event: "International War Crimes Tribunal begins trials in Neuremburg, Germany"
+
+  "Nov 21":
+    - year: 1620
+      event: "The Mayflower Compact was signed"
+
+  "Nov 22":
+    - year: 1962
+      event: "President John F. Kennedy was assasinated"
+
+  "Nov 23":
+
+  "Nov 24":
+
+  "Nov 25":
+
+  "Nov 26":
+
+  "Nov 27":
+
+  "Nov 28":
+
+  "Nov 29":
+    - year: 1929
+      event: "Commander Richard E. Byrd flies over the South Pole"
+
+  "Nov 30":
+
+  "Dec 1":
+    - year: 1955
+      event: "Rosa Parks arrested for not moving to the back of the bus"
+    - year: 1880
+      event: "The White House has its first telephone installed"
+
+  "Dec 2":
+    - year: 1823
+      event: "The Monroe Doctrine declares European powers must stay out of the Western Hemisphere"
+
+  "Dec 3":
+
+  "Dec 4":
+    - year: 1973
+      event: "Pioneer 10 reaches Jupiter"
+
+  "Dec 5":
+    - year: 1933
+      event: "Prohibition ends"
+
+  "Dec 6":
+
+  "Dec 7":
+    - year: 1941
+      event: "Japan bombs Pearl Harbor, Hawaii"
+    - year: 1787
+      event: "Delaware is the first state to ratify the U.S. Constitution"
+
+  "Dec 8":
+    - year: 1980
+      event: "John Lennon shot and killed in NYC"
+    - year: 1941
+      event: "U.S. and Britain declare war on Japan"
+
+  "Dec 9":
+
+  "Dec 10":
+
+  "Dec 11":
+    - year: 1941
+      event: "US declares war on Germany and Italy"
+    - year: 1620
+      event: "103 pilgrims land at Plymouth Rock"
+
+  "Dec 12":
+    - year: 1800
+      event: "Washington, D.C. is established as the U.S. capital"
+
+  "Dec 13":
+
+  "Dec 14":
+    - year: 1911
+      event: "South Pole first reached by Roald Amundsen"
+
+  "Dec 15":
+    - year: 1791
+      event: "U.S. Bill of Rights signed"
+
+  "Dec 16":
+    - year: 1773
+      event: "The Boston Tea Party"
+
+  "Dec 17":
+    - year: 1770
+      event: "Ludwig Von Beethoven is born"
+
+  "Dec 18":
+
+  "Dec 19":
+
+  "Dec 20":
+    - year: 1998
+      event: "U.S. President William Jefferson Clinton is impeached"
+
+  "Dec 21":
+    - year: 1898
+      event: "Pierre and Marie Curie discover radium"
+
+  "Dec 22":
+    - year: 1865
+      event: "General Sherman takes Savannah"
+
+  "Dec 23":
+    - year: 1888
+      event: "Dutch Painter Vincent Van Gogh cuts off his own ear"
+
+  "Dec 24":
+    - year: 1814
+      event: "War of 1812 Peace Treaty signed"
+
+  "Dec 25":
+    - year: 1776
+      event: "General George Washington and his troops cross the Delaware River"
+
+  "Dec 26":
+
+  "Dec 27":
+
+  "Dec 28":
+    - year: 1895
+      event: "World's first movie theater opens in Paris"
+
+  "Dec 29":
+    - year: 1890
+      event: "The Battle of Wounded Knee, S.D."
+
+  "Dec 30":
+
+  "Dec 31":
+
+  "Jan 1":
+    - year: 1863
+      event: "Abraham Lincoln signs the Emancipation Proclamation ending slavery"
+
+  "Jan 2":
+    - year: 1968
+      event: "First successful human heart transplant performed"
+
+  "Jan 3":
+    - year: 1959
+      event: "Alaska becomes 49th U.S. state"
+
+  "Jan 4":
+    - year: 1642
+      event: "Sir Isaac Newton is born"
+
+  "Jan 5":
+    - year: 1920
+      event: "Boston Red Sox sell Babe Ruth to NY Yankees"
+
+  "Jan 6":
+    - year: 1412
+      event: "French heroine Joan of Arc born"
+
+  "Jan 7":
+
+  "Jan 8":
+    - year: 1935
+      event: "Elvis Presly is born"
+
+  "Jan 9":
+
+  "Jan 10":
+
+  "Jan 11":
+
+  "Jan 12":
+
+  "Jan 13":
+    - year: 1930
+      event: "First Mickey Mouse comic strip appears"
+
+  "Jan 14":
+
+  "Jan 15":
+
+  "Jan 16":
+
+  "Jan 17":
+    - year: 1706
+      event: "Benjamin Franklin is born"
+
+  "Jan 18":
+    - year: 1778
+      event: "Capt. James Cook finds Sandwich (Hawaiian) Islands"
+
+  "Jan 19":
+    - year: 1793
+      event: "French King Louis XVI sentenced to death"
+
+  "Jan 20":
+
+  "Jan 21":
+    - year: 1799
+      event: "Edward Jenners smallpox vaccine introduced"
+
+  "Jan 22":
+
+  "Jan 23":
+
+  "Jan 24":
+    - year: 1924
+      event: "St. Petersburg, Russia renamed Leningrad"
+    - year: 1848
+      event: "Gold discovered at Sutter's Mill starts California Gold Rush"
+
+  "Jan 25":
+    - year: 1915
+      event: "Alexander Graham Bell makes 1st transcontinental phone call"
+
+  "Jan 26":
+    - year: 1875
+      event: "Dentist's electric drill patented"
+
+  "Jan 27":
+    - year: 1967
+      event: "Apollo 1 fire kills astronauts Grissom, White, and Chaffee"
+
+  "Jan 28":
+    - year: 1986
+      event: "Space Shuttle Chanlleger explodes killing all on board"
+
+  "Jan 29":
+    - year: 1886
+      event: "First successful gasoline driven car patented by Karl Benz in Germany"
+
+  "Jan 30":
+    - year: 1933
+      event: "The Lone Ranger premieres on ABC radio"
+
+  "Jan 31":
+    - year: 1865
+      event: "Congress passes 13th Amendment abolishing slavery"
+
+  "Feb 1":
+
+  "Feb 2":
+    - year: 1848
+      event: "Treaty of Guadalupe Hidalgo end U.S-Mexican War"
+
+  "Feb 3":
+
+  "Feb 4":
+
+  "Feb 5":
+
+  "Feb 6":
+
+  "Feb 7":
+
+  "Feb 8":
+    - year: 1587
+      event: "Mary Queen of Scots beheaded"
+
+  "Feb 9":
+
+  "Feb 10":
+
+  "Feb 11":
+
+  "Feb 12":
+
+  "Feb 13":
+    - year: 1866
+      event: "Jesse James hold up his first bank in Liberty, MO"
+
+  "Feb 14":
+
+  "Feb 15":
+
+  "Feb 16":
+    - year: 1923
+      event: "Tutankhamen's burial chamber is opened"
+
+  "Feb 17":
+
+  "Feb 18":
+
+  "Feb 19":
+    - year: 1878
+      event: "Edison patents the gramophone"
+
+  "Feb 20":
+    - year: 1792
+      event: "U.S. Postal Service is created"
+
+  "Feb 21":
+
+  "Feb 22":
+
+  "Feb 23":
+    - year: 1945
+      event: "U.S. Marines raise the flag on Iwo Jima"
+
+  "Feb 24":
+    - year: 1821
+      event: "Mexico gains independence from Spain"
+
+  "Feb 25":
+
+  "Feb 26":
+    - year: 1870
+      event: "First NYC subway line opens"
+
+  "Feb 27":
+
+  "Feb 28":
+    - year: 1854
+      event: "Republican Party formally organized"
+
+  "Feb 29":
+
+  "Mar 1":
+    - year: 1790
+      event: "First U.S. census authorized"
+
+  "Mar 2":
+    - year: 1973
+      event: "Vietnam peace treaty signed in Paris"
+
+  "Mar 3":
+    - year: 1931
+      event: "The Star Spangled Banner become the U.S. national athem"
+
+  "Mar 4":
+
+  "Mar 5":
+
+  "Mar 6":
+
+  "Mar 7":
+    - year: 1926
+      event: "First transatlantic telephone call"
+
+  "Mar 8":
+    - year: 1965
+      event: "First U.S. troops arrive in Vietnam"
+
+  "Mar 9":
+
+  "Mar 10":
+    - year: 1862
+      event: "First U.S. paper currency is issued"
+
+  "Mar 11":
+    - year: 1953
+      event: "Nuclear bomb accidentally dropped on North Carolina"
+
+  "Mar 12":
+
+  "Mar 13":
+
+  "Mar 14":
+
+  "Mar 15":
+
+  "Mar 16":
+    - year: 1830
+      event: "Slowest day ever for NY Stock Exchange"
+
+  "Mar 17":
+
+  "Mar 18":
+    - year: 1949
+      event: "NATO is formed"
+
+  "Mar 19":
+
+  "Mar 20":
+
+  "Mar 21":
+    - year: 1965
+      event: "Martin Luther King Jr. leads march from Selma to Montgomery, AL"
+
+  "Mar 22":
+    - year: 1903
+      event: "Niagra Falls runs dry due to drought"
+
+  "Mar 23":
+
+  "Mar 24":
+    - year: 1837
+      event: "Canada grants blacks the right to vote"
+
+  "Mar 25":
+    - year: 1911
+      event: "Triangle Shirtwaist Factory fire kills 145, only 13 girls survive"
+
+  "Mar 26":
+
+  "Mar 27":
+    - year: 1914
+      event: "First successful blood transfusion"
+
+  "Mar 28":
+
+  "Mar 29":
+    - year: 1932
+      event: "Jack Benny debuts on radio"
+
+  "Mar 30":
+    - year: 1932
+      event: "Amelia Earhart is first woman to fly solo across the Atlantic"
+
+  "Mar 31":
+
+  "Apr 1":
+
+  "Apr 2":
+    - year: 1978
+      event: "Velcro is first sold"
+
+  "Apr 3":
+    - year: 1882
+      event: "Jesse James is killed"
+
+  "Apr 4":
+    - year: 1581
+      event: "Frances Drake completes circumnavigation of the world"
+
+  "Apr 5":
+
+  "Apr 6":
+
+  "Apr 7":
+
+  "Apr 8":
+    - year: 1513
+      event: "Ponce de Leon claims Florida for Spain"
+
+  "Apr 9":
+    - year: 1865
+      event: "Gen. Lee surrenders to Gen. Grant at Appomattox"
+
+  "Apr 10":
+    - year: 1849
+      event: "The safety pin is patented"
+
+  "Apr 11":
+
+  "Apr 12":
+
+  "Apr 13":
+
+  "Apr 14":
+    - year: 1614
+      event: "Pochahontas marries John Rolfe"
+
+  "Apr 15":
+    - year: 1452
+      event: "Leonardo da Vinci is born"
+
+  "Apr 16":
+    - year: 1922
+      event: "Annie Oakley shoot a record 100 clay targets in a row"
+
+  "Apr 17":
+
+  "Apr 18":
+
+  "Apr 19":
+    - year: 1906
+      event: "The Great San Francisco Earthquake"
+    - year: 1956
+      event: "Grace Kelley marries Prince Ranier III of Monaco"
+
+  "Apr 20":
+    - year: 1889
+      event: "Adolf Hitler was born"
+
+  "Apr 21":
+
+  "Apr 22":
+
+  "Apr 23":
+    - year: 1564
+      event: "WIlliam Shakespeare was born"
+
+  "Apr 24":
+
+  "Apr 25":
+
+  "Apr 26":
+    - year: 1986
+      event: "The Chernobyl nuclear disaster"
+
+  "Apr 27":
+
+  "Apr 28":
+    - year: 1789
+      event: "Fletcher Christian leads mutiny on HMS Bounty"
+
+  "Apr 29":
+    - year: 1913
+      event: "The zipper is patented"
+
+  "Apr 30":
+    - year: 1803
+      event: "U.S. purchased Louisiana Territory"
+
+  "May 1":
+
+  "May 2":
+    - year: 1945
+      event: "Berlin surrenders to the Russian army"
+
+  "May 3":
+
+  "May 4":
+    - year: 1970
+      event: "Four students killed by National Guard at Kent State University"
+
+  "May 5":
+    - year: 1961
+      event: "Alan Shepard is first American in space"
+
+  "May 6":
+    - year: 1915
+      event: "Ocean liner Lusitania sunk by German submarines"
+
+  "May 7":
+
+  "May 8":
+
+  "May 9":
+
+  "May 10":
+    - year: 1994
+      event: "Nelson Mandela sworn in as South Africa's first black president"
+
+  "May 11":
+
+  "May 12":
+
+  "May 13":
+
+  "May 14":
+
+  "May 15":
+
+  "May 16":
+
+  "May 17":
+    - year: 1845
+      event: "The rubber band was patented"
+
+  "May 18":
+    - year: 1804
+      event: "Napoleon became Emperor of France"
+
+  "May 19":
+
+  "May 20":
+
+  "May 21":
+    - year: 1881
+      event: "Clara Barton founded the American Red Cross"
+
+  "May 22":
+
+  "May 23":
+    - year: 1945
+      event: "British Prime Minister Winston Churchill resigns"
+
+  "May 24":
+    - year: 1884
+      event: "Samuel Morse send the first telegraph message"
+
+  "May 25":
+
+  "May 26":
+    - year: 1896
+      event: "Nicholas II crowned Czar of Russia"
+
+  "May 27":
+    - year: 1923
+      event: "Henry Kissenger was born"
+
+  "May 28":
+    - year: 1934
+      event: "The Dionne quintuplets were born"
+
+  "May 29":
+
+  "May 30":
+
+  "May 31":
+    - year: 1962
+      event: "Nazi war criminal Adolf Eichmann executed"
+
+  "Jun 1":
+
+  "Jun 2":
+    - year: 1924
+      event: "U.S. Congress grants Native Americans citizenship"
+
+  "Jun 3":
+
+  "Jun 4":
+    - year: 1940
+      event: "German forces invade Paris"
+
+  "Jun 5":
+    - year: 1967
+      event: "Six Day War begins between Isreal and it's Arab neighbors"
+
+  "Jun 6":
+
+  "Jun 7":
+
+  "Jun 8":
+
+  "Jun 9":
+
+  "Jun 10":
+
+  "Jun 11":
+
+  "Jun 12":
+    - year: 1939
+      event: "Baseball Hall of Fame opens in Cooperstown"
+
+  "Jun 13":
+
+  "Jun 14":
+
+  "Jun 15":
+
+  "Jun 16":
+
+  "Jun 17":
+
+  "Jun 18":
+    - year: 1815
+      event: "Wellington defeats Napolean at Waterloo"
+
+  "Jun 19":
+
+  "Jun 20":
+
+  "Jun 21":
+
+  "Jun 22":
+    - year: 1970
+      event: "26th Amendment lowers voting age to 18"
+
+  "Jun 23":
+
+  "Jun 24":
+    - year: 1948
+      event: "Soviet Union begins the Berlin Blockade"
+
+  "Jun 25":
+
+  "Jun 26":
+
+  "Jun 27":
+
+  "Jun 28":
+    - year: 1919
+      event: "Treaty of Versailles signed, ending WWI"
+
+  "Jun 29":
+    - year: 1854
+      event: "Gadsen Purchase--U.S. aquires parts of present day AZ & NM"
+
+  "Jun 30":
+    - year: 1936
+      event: "Gone With the Wind is published"
+
+  "Jul 1":
+    - year: 1963
+      event: "U.S. Postal Service starts using ZIP code system"
+
+  "Jul 2":
+
+  "Jul 3":
+
+  "Jul 4":
+    - year: 1997
+      event: "Mars Pathfinder lands on Mars"
+
+  "Jul 5":
+
+  "Jul 6":
+    - year: 1933
+      event: "First all star game is played at Chicago's Wrigley Field"
+
+  "Jul 7":
+
+  "Jul 8":
+    - year: 1835
+      event: "The Libery Bell cracks"
+
+  "Jul 9":
+
+  "Jul 10":
+
+  "Jul 11":
+    - year: 1804
+      event: "Alexander Hamilton shot by V.P. Aaron Burr in a duel"
+
+  "Jul 12":
+
+  "Jul 13":
+    - year: 1977
+      event: "New York City paralyzed by 25 hour black-out"
+
+  "Jul 14":
+
+  "Jul 15":
+    - year: 1099
+      event: "Crusaders take control of Jerusalem"
+
+  "Jul 16":
+    - year: 1945
+      event: "First atomic bomb detonated in NM"
+
+  "Jul 17":
+    - year: 1998
+      event: "Nicholas II of Russia and family buried 80 years after they are assasinated"
+
+  "Jul 18":
+    - year: 1921
+      event: "Black Sox trial begins in Chicago"
+
+  "Jul 19":
+
+  "Jul 20":
+    - year: 1944
+      event: "Franklin D. Roosevelt nominated for a fourth term as U.S. President"
+
+  "Jul 21":
+
+  "Jul 22":
+    - year: 1934
+      event: "Public Enemy #1 John Dillinger killed by FBI agents in Chicago"
+
+  "Jul 23":
+    - year: 1935
+      event: "An airplane crashes into the Empire State Building"
+
+  "Jul 24":
+
+  "Jul 25":
+    - year: 1952
+      event: "Puerto Rico becomes a self-governing commonwealth of the U.S."
+
+  "Jul 26":
+    - year: 1946
+      event: "President Truman orders desegregation of all U.S. forces"
+
+  "Jul 27":
+    - year: 1940
+      event: "Bugs Bunny makes his debut"
 
   "Unknown":
     - year: 399BCE
